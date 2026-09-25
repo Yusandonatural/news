@@ -1,0 +1,93 @@
+{
+  "_comment": "既定の分野と企業。画面の「分野と企業を編集」で上書きでき、上書きはブラウザに保存される。ここを編集して再デプロイすれば全端末の既定が変わる。",
+  "markets": {
+    "fx": [
+      { "symbol": "USDJPY=X", "label": "ドル/円" },
+      { "symbol": "EURJPY=X", "label": "ユーロ/円" },
+      { "symbol": "GBPJPY=X", "label": "ポンド/円" },
+      { "symbol": "AUDJPY=X", "label": "豪ドル/円" },
+      { "symbol": "CNYJPY=X", "label": "人民元/円" },
+      { "symbol": "EURUSD=X", "label": "ユーロ/ドル" },
+      { "symbol": "DX-Y.NYB", "label": "ドル指数" }
+    ],
+    "indices": [
+      { "symbol": "^N225", "label": "日経平均" },
+      { "symbol": "^GSPC", "label": "S&P 500" },
+      { "symbol": "^IXIC", "label": "ナスダック" },
+      { "symbol": "^DJI", "label": "NYダウ" },
+      { "symbol": "^TNX", "label": "米10年債利回り", "unit": "%" },
+      { "symbol": "GC=F", "label": "金（ドル/oz）" },
+      { "symbol": "CL=F", "label": "WTI原油（ドル）" }
+    ]
+  },
+  "sectors": [
+    {
+      "name": "AI・半導体",
+      "keywords": "半導体 OR AI OR 生成AI",
+      "companies": [
+        { "symbol": "NVDA", "name": "NVIDIA" },
+        { "symbol": "MSFT", "name": "マイクロソフト" },
+        { "symbol": "8035.T", "name": "東京エレクトロン" },
+        { "symbol": "6857.T", "name": "アドバンテスト" },
+        { "symbol": "9984.T", "name": "ソフトバンクグループ" }
+      ]
+    },
+    {
+      "name": "食品・農業",
+      "keywords": "食品 OR 農業 OR コメ OR 農産物",
+      "companies": [
+        { "symbol": "2802.T", "name": "味の素" },
+        { "symbol": "2801.T", "name": "キッコーマン" },
+        { "symbol": "2593.T", "name": "伊藤園" },
+        { "symbol": "2897.T", "name": "日清食品HD" },
+        { "symbol": "DE", "name": "ディア（John Deere）" },
+        { "symbol": "ADM", "name": "アーチャー・ダニエルズ・ミッドランド" }
+      ]
+    },
+    {
+      "name": "総合商社",
+      "keywords": "総合商社 OR 商社",
+      "companies": [
+        { "symbol": "8058.T", "name": "三菱商事" },
+        { "symbol": "8001.T", "name": "伊藤忠商事" },
+        { "symbol": "8031.T", "name": "三井物産" }
+      ]
+    },
+    {
+      "name": "金融",
+      "keywords": "日銀 OR 金利 OR 銀行",
+      "companies": [
+        { "symbol": "8306.T", "name": "三菱UFJフィナンシャル" },
+        { "symbol": "8316.T", "name": "三井住友フィナンシャル" },
+        { "symbol": "JPM", "name": "JPモルガン・チェース" }
+      ]
+    },
+    {
+      "name": "エネルギー・資源",
+      "keywords": "原油 OR エネルギー OR 資源 OR 電力",
+      "companies": [
+        { "symbol": "1605.T", "name": "INPEX" },
+        { "symbol": "5020.T", "name": "ENEOSホールディングス" },
+        { "symbol": "XOM", "name": "エクソンモービル" }
+      ]
+    },
+    {
+      "name": "ヘルスケア",
+      "keywords": "製薬 OR 医薬品 OR 創薬",
+      "companies": [
+        { "symbol": "4519.T", "name": "中外製薬" },
+        { "symbol": "4568.T", "name": "第一三共" },
+        { "symbol": "LLY", "name": "イーライリリー" }
+      ]
+    },
+    {
+      "name": "自動車",
+      "keywords": "自動車 OR EV OR 電気自動車",
+      "companies": [
+        { "symbol": "7203.T", "name": "トヨタ自動車" },
+        { "symbol": "7267.T", "name": "ホンダ" },
+        { "symbol": "TSLA", "name": "テスラ" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "site_name": "悠三堂マーケットボード",
+  "site_url": "https://news.yusando.com",
+  "ga4_measurement_id": "G-9JG1FFTL1B",
+  "ads_conversion_id": "",
+  "ads_conversion_labels": {
+    "view_company": "",
+    "view_chart": ""
+  },
+  "search_console_verification": "",
+  "default_locale": "ja",
+  "locales": ["ja"],
+  "og_image": "https://news.yusando.com/og.png",
+  "spa": false
+}
